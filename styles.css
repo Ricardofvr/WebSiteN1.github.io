@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
 }
 
 header nav ul {
@@ -16,7 +15,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
@@ -28,22 +27,25 @@ section {
     background: #000000;
     text-align: center;
     background-color: green;
-
 }
 
 
+section p {
+    color: blue;
+    font-size: 1.2em;
+}
 
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #00fd3f;
+    background: #333;
     color: white;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #00832c;
+    background-color: #5c67f2;
     color: white;
     border: none;
     cursor: pointer;
