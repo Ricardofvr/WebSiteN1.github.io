@@ -38,19 +38,10 @@
             <li><a href="#WindowsPhone" onclick="showSection('WindowsPhone')">Windows Phone</a></li>
         </ul>
     </nav>
+    
 </section>
 
-    <script>
-        function showSection(sectionId) {
-            var sections = ['Windows', 'Mac', 'Linux', 'Android', 'iOS', 'WindowsPhone'];
-            sections.forEach(function(sec) {
-                document.getElementById(sec).style.display = (sec === sectionId) ? 'block' : 'none';
-            });
-        }
-        document.addEventListener('DOMContentLoaded', function() {
-            showSection('Windows'); // Default section to show
-        });
-    </script>
+
 
     <section id="Windows" class="section" style="display:none;">
         <p>Windows</p>
