@@ -56,7 +56,10 @@ section {
 #contact {
     background-color: #00c278;
     min-height: 10vh; /* Minimum height to fill the viewport */
-    max-height: 10vh; /* Minimum height to fill the viewport */
+    width: auto;
+    height: auto;
+    
+
 }
 
 #SugestedProducts {
