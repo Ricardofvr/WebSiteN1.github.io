@@ -83,6 +83,30 @@ section {
     max-height: 10vh; /* Minimum height to fill the viewport */
 }
 
+#TopReviews {
+    background-color: #008150;
+    min-height: 25vh; /* Minimum height to fill the viewport */
+    max-height: 25vh; /* Minimum height to fill the viewport */
+}
+
+#VideoReviews {
+    background-color: #00c278;
+    min-height: 25vh; /* Minimum height to fill the viewport */
+    max-height: 25vh; /* Minimum height to fill the viewport */
+}
+
+
+#ReviewoftheWeek {
+    background-color: #008150;
+    min-height: 25vh; /* Minimum height to fill the viewport */
+    max-height: 25vh; /* Minimum height to fill the viewport */
+}
+#catalog {
+    background-color: #008150;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}
+
 #NewTechnology
 {
     background-color: #008150;
@@ -104,6 +128,22 @@ section {
     max-height: 10vh; /* Minimum height to fill the viewport */
 }
 
+input[type="text"],
+input[type="email"],
+textarea,
+button[type="submit"] {
+    height: 40px; /* Example height, adjust as necessary */
+    padding: 0 10px;
+    margin-bottom: 10px; /* Space between the form elements */
+    border: 1px solid #000; /* Example border, adjust as necessary */
+    box-sizing: border-box; /* To include padding and border in the element's total width and height */
+}
+
+textarea {
+    vertical-align: top;
+    height: 50px; /* Example height, adjust as necessary */
+    padding-top: 10px; /* Adjust padding to vertically center the text */
+}
 
 a {
     color: black;

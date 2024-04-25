@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>XDKONE Services</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -54,7 +57,13 @@
     </section>
 
     <section id="contact">
-    
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
     <footer>
         <p>Copyright © 2023 XDKONE Technology</p>
