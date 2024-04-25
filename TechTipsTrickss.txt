@@ -40,23 +40,7 @@
     </nav>
     
 </section>
-<script>
-    function showSection(sectionId) {
-        var sections = ['Windows', 'Mac', 'Linux', 'Android', 'iOS', 'WindowsPhone'];
-        sections.forEach(function(sec) {
-            var section = document.getElementById(sec);
-            if (section) { // Check if the section actually exists to avoid errors
-                section.style.display = (sec === sectionId) ? 'block' : 'none';
-            } else {
-                console.log("No element with ID: " + sec); // Log if an element is not found
-            }
-        });
-    }
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        showSection('Windows'); // Set the default visible section
-    });
-    </script>
+
 
 
     <section id="Windows" class="section" style="display:none;">
