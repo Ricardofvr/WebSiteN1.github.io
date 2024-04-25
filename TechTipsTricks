@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>XDKONE TechTipsTricks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="TechTipsTricks">
+        <h1>Tech Tips & Tricks</h1>
+        <p>Get the latest tech tips and tricks.</p>
+    </section>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#Windows" onclick="showSection('Windows')">Windows</a></li>
+            <li><a href="#Mac" onclick="showSection('Mac')">Mac</a></li>
+            <li><a href="#Linux" onclick="showSection('Linux')">Linux</a></li>
+            <li><a href="#Android" onclick="showSection('Android')">Android</a></li>
+            <li><a href="#iOS" onclick="showSection('iOS')">iOS</a></li>
+            <li><a href="#WindowsPhone" onclick="showSection('WindowsPhone')">Windows Phone</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        function showSection(sectionId) {
+            var sections = ['Windows', 'Mac', 'Linux', 'Android', 'iOS', 'WindowsPhone'];
+            sections.forEach(function(sec) {
+                document.getElementById(sec).style.display = (sec === sectionId) ? 'block' : 'none';
+            });
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            showSection('Windows'); // Default section to show
+        });
+    </script>
+
+    <section id="Windows" class="section" style="display:none;">
+        <p>Windows</p>
+    </section>
+    <section id="Mac" style="display:none;">
+        <p>Mac</p>
+    </section>
+    <section id="Linux" style="display:none;">
+        <p>Linux</p> 
+    </section>
+    <section id="Android" style="display:none;">
+        <p>Android</p>
+    </section>
+    <section id="iOS" style="display:none;">
+        <p>iOS</p>
+    </section>
+    <section id="WindowsPhone" style="display:none;">
+        <p>Windows Phone</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 XDKONE Technology</p>
+    </footer>
+</body>
+</html>
