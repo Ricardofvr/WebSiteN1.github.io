@@ -27,7 +27,7 @@
         <p>Get the latest tech tips and tricks.</p>
     </section>
 
-    
+    <section>
     <nav>
         <ul>
             <li><a href="#Windows" onclick="showSection('Windows')">Windows</a></li>
@@ -38,6 +38,7 @@
             <li><a href="#WindowsPhone" onclick="showSection('WindowsPhone')">Windows Phone</a></li>
         </ul>
     </nav>
+</section>
 
     <script>
         function showSection(sectionId) {

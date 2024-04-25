@@ -16,7 +16,9 @@ header nav ul li {
     margin-right: 10px;
 }
 
-nav ul
+
+
+section ul
 {
     list-style: none;
     padding: 0;
@@ -25,7 +27,7 @@ nav ul
     color : white;
 }
 
-nav ul li {
+section ul li {
     display: inline;
     margin-right: 10px;
 }
