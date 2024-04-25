@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    background: #000000;
 }
 
 header nav ul {
     list-style: none;
     padding: 0;
-    background: #00af1d;
+    background: #00c278;
     text-align: center;
     color : white;
 }
@@ -27,23 +28,99 @@ section {
     margin-top: 20px;
     background: #000000;
     text-align: center;
-    background-color: #00af1d;
-    color : white;
+    text-align: center; /* Centers text for all sections */
+    box-sizing: border-box; /* Includes padding in height calculation */
+}
 
+/* Specific styles for each section ID */
+#home {
+    background-color: #008150;
+    min-height: 40vh; /* Minimum height to fill the viewport */
+    max-height: 40vh; /* Minimum height to fill the viewport */
+    
+}
+
+#services {
+    background-color: #00c278;
+    
+    min-height: 20vh; /* Minimum height to fill the viewport */
+    max-height: 20vh; /* Minimum height to fill the viewport */
+}
+
+#about {
+    background-color: #008150;
+    min-height: 15vh; /* Minimum height to fill the viewport */
+    max-height: 15vh; /* Minimum height to fill the viewport */
+}
+
+#contact {
+    background-color: #00c278;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}
+
+#SugestedProducts {
+    background-color: #008150;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}
+
+#NewProducts {
+    background-color: #00c278;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}   
+
+#TechTipsTricks {
+    background-color: #008150;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}
+
+#PcBuilds {
+    background-color: #00c278;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}
+
+#NewTechnology
+{
+    background-color: #008150;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}
+
+#PcComponents
+{
+    background-color: #00c278;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
+}
+
+#TechProducts
+{
+    background-color: #008150;
+    min-height: 10vh; /* Minimum height to fill the viewport */
+    max-height: 10vh; /* Minimum height to fill the viewport */
 }
 
 
+a {
+    color: black;
+    text-decoration: none;
+}
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    margin-top: 20px;
+    background: #008150;
     color: white;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #5c67f2;
+    background-color: #5cf2c5;
     color: white;
     border: none;
     cursor: pointer;
