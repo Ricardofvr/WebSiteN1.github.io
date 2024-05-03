@@ -156,7 +156,7 @@ section {
 
 #Windows
 {
-    display:block;
+
     background-color: #008150;
     min-height: 10vh; /* Minimum height to fill the viewport */
     max-height: 10vh; /* Minimum height to fill the viewport */
@@ -164,7 +164,7 @@ section {
 
 #Mac
 {
-    display:none;
+
     background-color: #00c278;
     min-height: 10vh; /* Minimum height to fill the viewport */
     max-height: 10vh; /* Minimum height to fill the viewport */
@@ -172,7 +172,7 @@ section {
 
 #Linux
 {
-    display:none;
+    
     background-color: #008150;
     min-height: 10vh; /* Minimum height to fill the viewport */
     max-height: 10vh; /* Minimum height to fill the viewport */
@@ -180,7 +180,7 @@ section {
 
 #Android
 {
-    display:none;
+ 
     background-color: #00c278;
     min-height: 10vh; /* Minimum height to fill the viewport */
     max-height: 10vh; /* Minimum height to fill the viewport */
@@ -188,7 +188,7 @@ section {
 
 #IOS
 {
-    display:none;
+  
     background-color: #008150;
     min-height: 10vh; /* Minimum height to fill the viewport */
     max-height: 10vh; /* Minimum height to fill the viewport */
@@ -196,7 +196,7 @@ section {
 
 #WindowsPhone
 {
-    display:none;
+  
     background-color: #00c278;
     min-height: 10vh; /* Minimum height to fill the viewport */
     max-height: 10vh; /* Minimum height to fill the viewport */
