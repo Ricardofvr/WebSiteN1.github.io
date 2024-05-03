@@ -42,30 +42,12 @@
     </nav>
 
     
-</section>
-<script>
-    function showSection(sectionId) {
-        var sections = ['Windows', 'Mac', 'Linux', 'Android', 'iOS', 'WindowsPhone'];
-        sections.forEach(function(sec) {
-            var section = document.getElementById(sec);
-            if (section) { // Check if the section actually exists to avoid errors
-                section.style.display = (sec === sectionId) ? 'block' : 'none';
-            } else {
-                console.log("No element with ID: " + sec); // Log if an element is not found
-            }
-        });
-    }
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        showSection('Windows'); // Set the default visible section
-    });
-    </script>
+    </section>
 
-
-    <section id="Windows"  style="display:none;">
+    <section id="Windows"  style="display: none;">
         <p>Windows</p>
     </section>
-    <section id="Mac" style="display:none;">
+    <section id="Mac" style="display: none;">
         <p>Mac</p>
     </section>
     <section id="Linux" style="display:none;">
@@ -94,5 +76,26 @@
     <footer>
         <p>Copyright © 2023 XDKONE Technology</p>
     </footer>
+
+    <script>
+        function showSection(sectionId) {
+          console.log("Showing section: " + sectionId);  // Debug log
+          var sections = ['Windows', 'Mac', 'Linux', 'Android', 'iOS', 'WindowsPhone'];
+          sections.forEach(function(sec) {
+              var section = document.getElementById(sec);
+              if (section) {
+                  section.style.display = (sec === sectionId) ? 'block' : 'none';
+              } else {
+                  console.log("No element with ID: " + sec);  // Log if an element is not found
+              }
+          });
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+    console.log("Document loaded. Showing default section.");
+    showSection('Windows'); // Set the default visible section
+});
+
+    </script> 
 </body>
 </html>
